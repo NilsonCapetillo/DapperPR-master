@@ -36,6 +36,7 @@ namespace DapperPR
                     string shipment = oElement.b2_04;
 
                     TextWriter write_210 = new StreamWriter("prueba_crea_210.edi");
+
                     write_210.WriteLine(oElement.isa + "*" + oElement.isa_02 + "*" + oElement.isa_03 + "*" + oElement.isa_04 + "*" +
                                       oElement.isa_05 + "*" + oElement.isa_06 + "*" + oElement.isa_07 + "*" + oElement.isa_08 + "*" +
                                       oElement.isa_09 + "*" + oElement.isa_10 + "*" + oElement.isa_11 + "*" + oElement.isa_12 + "*" +
